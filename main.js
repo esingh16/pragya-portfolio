@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const themeToggle = document.getElementById("themeToggle");
   const progressBar = document.getElementById("scrollProgressBar");
 
-  // Theme toggle (key renamed from eshan-theme to pragya-theme)
+  // Theme toggle (key renamed for Pragya)
   const storedTheme = localStorage.getItem("pragya-theme");
   if (storedTheme === "light") {
     body.classList.add("light");
