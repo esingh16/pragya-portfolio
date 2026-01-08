@@ -418,7 +418,9 @@ Hero
   font-size: clamp(2.3rem, 4vw, 3rem);
   letter-spacing: 0.02em;
   margin: 0.25rem 0 0.35rem;
+  white-space: normal; /* lets the <br> create a new line [web:17] */
 }
+
 
 .highlight {
   background: linear-gradient(to right, #6366f1, #f97316);
